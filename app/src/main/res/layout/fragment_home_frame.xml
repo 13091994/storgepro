@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/home_frame"
+    tools:context=".Home_frame">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+
+            >
+            <TextView
+                android:id="@+id/welcome"
+                android:text="welcome"
+                android:layout_gravity="center"
+                android:textColor="#000000"
+                android:textSize="25dp"
+                android:layout_margin="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/username"
+                android:layout_gravity="center"
+                android:text="mohamed nabil"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:layout_marginTop="50dp"
+                android:layout_gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:id="@+id/add_pro_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/add_product_desgin" />
+
+                <ImageButton
+                    android:id="@+id/search_pro_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/search_product_desgin" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:id="@+id/edit_pro_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edit_product_desgin" />
+
+                <ImageButton
+                    android:id="@+id/delete_pro_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/delete_product_desgin" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#ffe700"
+            android:layout_weight="6">
+            <!-- TODO: Update blank fragment layout -->
+
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home_icon"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_new_product"
+            android:icon="@drawable/ic_add"
+            android:title="New Product" />
+        <item
+            android:id="@+id/nav_Search"
+            android:icon="@drawable/ic_search"
+            android:title="Search Product" />
+        <item
+            android:id="@+id/nav_Edit"
+            android:icon="@drawable/ic_mode_edit_black_24dp"
+            android:title="Edit Product" />
+        <item
+            android:id="@+id/nav_Delete"
+            android:icon="@drawable/delete_product_icon"
+            android:title="Delete Product" />
+    </group>
+
+   <group android:id="@+id/menu_bottom"
+    android:checkableBehavior="single">
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/logout_icon"
+                android:title="Logout" />
+            <item
+                android:id="@+id/nav_Exit"
+                android:icon="@drawable/exit_icon"
+                android:title="Exit" />
+   </group>
+
+</menu>
